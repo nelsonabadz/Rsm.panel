@@ -1,0 +1,47 @@
+Package: Rsm.panel
+Title: Response Surface Analysis Interactive Panel
+Version: 0.0.0.9000
+Authors@R: 
+  c(person(given = "Omar",
+           family = "Ruiz-Barzola",
+           role = c("aut", "cre", "ctb"),
+           email = "oruiz@espol.edu.ec"),
+    person(given = "Oscar",
+           family = "Bolanos-Flores",
+           role = c("aut", "ctb")),
+    person(given = "Odalys",
+           family = "Tello-Burgos",
+           role = c("aut", "ctb")),
+    person(given = "Pablo",
+           family = "Zuniga-Guaman",
+           role = c("aut", "ctb")),
+    person(given = "Gerleen",
+           family = "Goya-Pincay",
+           role = c("aut", "ctb")),
+    person(given = "Britney",
+           family = "Rodriguez-Rivas",
+           role = c("aut", "ctb")),
+    person(given = "Nelson",
+           family = "Abad-Zambrano",
+           role = c("aut", "ctb")))
+Maintainer: Nelson Abad <nsabad@espol.edu.ec>
+Description: The objective of Rsm.panel is to offer a Shiny panel featuring 
+    response surface methods. This is achieved by allowing users to specify 
+    the dependent and independent variables of the uploaded dataset. 
+    The function further provides various first- and second-order models, 
+    both with and without interaction terms. Additionally, Rsm.panel furnishes
+    insights into the optimal region of the surface and its corresponding location.
+License: MIT + file LICENSE
+Imports:
+    shiny,
+    shinydashboard,
+    ggplot2,
+    readxl,
+    purrr,
+    magrittr,
+    plotly,
+    rsm,
+    gridExtra
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.0
