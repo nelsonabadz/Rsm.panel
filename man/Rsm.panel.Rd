@@ -9,7 +9,9 @@ Rsm.panel()
 \value{
 A shiny panel with the response surface analysis, based on
 the specification of the dependent and independent variables of
-the data set provided.
+the data set provided, also provides various first- and second-order models,
+both with and without interaction terms. Additionally, furnishes insights into
+the optimal region of the surface and its corresponding location.
 }
 \description{
 Interactive panel to visualize and develop a response surface analysis
