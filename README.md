@@ -45,3 +45,5 @@ Rsm.panel()
 ```
 
 ![Captura](https://github.com/nelsonabadz/Rsm.panel/assets/44551729/56a2b81b-ad89-44e2-8837-5108a56236e9)
+
+Once you have uploaded the file (an Excel file), you specify the factors and the response variable in the interface. With all that set up, the package will perform the corresponding response surface analysis.
