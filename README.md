@@ -36,6 +36,8 @@ Which would you like to update?
 
 Please, select the option **All** for the correct installation and functionality of the package.
 
+If you still have some issues with dependencies, try running R and RStudio as administrator.
+
 ## Example
 
 ``` r
