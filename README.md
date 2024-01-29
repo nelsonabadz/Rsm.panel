@@ -19,8 +19,10 @@ location.
 You can install the development version of Rsm.panel like so:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("nelsonabadz/Rsm.panel")
+install.packages("devtools")
+devtools::install_github(repo = "nelsonabadz/Rsm.panel",
+                         dependencies = TRUE, 
+                         upgrade = "always")
 ```
 
 In the case that you come across this message:
