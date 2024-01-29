@@ -23,6 +23,8 @@ You can install the development version of Rsm.panel like so:
 devtools::install_github("nelsonabadz/Rsm.panel")
 ```
 
+In the case that you come across this message:
+
 ``` r
 > devtools::install_github("nelsonabadz/Rsm.panel")
 Downloading GitHub repo nelsonabadz/Rsm.panel@HEAD
@@ -31,7 +33,7 @@ It is recommended to update all of them.
 Which would you like to update?
 ```
 
-Please, select the option **All**.
+Please, select the option **All** for the correct installation and functionality of the package.
 
 ## Example
 
