@@ -44,3 +44,4 @@ library(Rsm.panel)
 # Execute the function and provide the dataset. That's all!
 # Function: Rsm.panel()
 ```
+![Captura](https://github.com/nelsonabadz/Rsm.panel/assets/44551729/56a2b81b-ad89-44e2-8837-5108a56236e9)
