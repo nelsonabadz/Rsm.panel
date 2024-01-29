@@ -2,7 +2,9 @@
 #'
 #' @return A shiny panel with the response surface analysis, based on
 #' the specification of the dependent and independent variables of
-#' the data set provided.
+#' the data set provided, also provides various first- and second-order models,
+#' both with and without interaction terms. Additionally, furnishes insights into
+#' the optimal region of the surface and its corresponding location.
 #'
 #' @importFrom ggplot2 ggplot aes geom_histogram geom_freqpoly labs xlab geom_violin geom_jitter geom_boxplot aes_string geom_point
 #' @importFrom shiny icon h2 fluidPage navbarPage tabPanel sidebarPanel fileInput selectInput mainPanel tableOutput plotOutput dataTableOutput verbatimTextOutput h3 renderDataTable reactiveValues observeEvent renderPrint shinyApp renderTable renderPlot updateSelectInput
